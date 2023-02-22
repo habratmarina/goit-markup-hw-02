@@ -39,7 +39,6 @@ body {
 }
 
 .section-title {
-	font-weight: 600;
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
@@ -47,7 +46,6 @@ body {
 	color: var(--secondary-main-color);
 }
 .title {
-	font-weight: 600;
 	font-size: 20px;
 	line-height: 1.2;
 	color: var(--secondary-main-color);
@@ -60,8 +58,6 @@ body {
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.33;
-	display: flex;
-	align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--accent-color);
@@ -79,7 +75,7 @@ body {
 }
 
 .nav-item .nav-link {
-	font-weight: 600;
+	font-weight: 700;
 	color: var(--secondary-main-color);
 }
 
@@ -89,17 +85,12 @@ body {
 
 /* -----------Contacts----------- */
 
-.contacts-email:hover,
-.contacts-email:focus {
+.contacts:hover,
+.contacts:focus {
 	color: var(--hover-focus-color);
 }
 
-.contacts-tel:hover,
-.contacts-tel:focus {
-	color: var(--hover-focus-color);
-}
-.contacts-email,
-.contacts-tel {
+.contacts {
 	font-style: normal;
 	color: var(--main-color-text);
 }
@@ -112,7 +103,6 @@ body {
 }
 
 .hero-title {
-	font-weight: 600;
 	font-size: 56px;
 	line-height: 1.07;
 	text-align: center;
@@ -134,7 +124,11 @@ body {
 .team-item .subtitle {
 	text-align: center;
 }
-
+.team-item {
+	background: var(--white-color);
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	border-radius: 0px 0px 4px 4px;
+}
 /* -------Footer-------- */
 
 .footer {
@@ -146,8 +140,6 @@ body {
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.17;
-	display: flex;
-	align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--accent-color);
@@ -164,12 +156,9 @@ body {
 
 .button {
 	font-family: inherit;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
-	display: flex;
-	align-items: center;
-	text-align: center;
 	letter-spacing: 0.04em;
 	cursor: pointer;
 }
